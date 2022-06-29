@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marvelous Nails & Spa | Service</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" href="img/Marvelous-nails-spa-favicon.svg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+<div id="mySidenav" class="sidenav">
+    <a id="side-nav-close" onclick="closeNav()">&times;</a>
+
+    <div class="sidenav-content">
+
+        <a class="navbar-brand align-items-center" href="index.html"
+           style="padding-left: 0px;padding-right: 70px;padding-bottom: 30px">
+            <img src="img/Marvelous-nails-spa-logo.png" alt="Marvelous Nails & Spa">
+        </a>
+        <h5>Address</h5>
+        <p>1485 El Camino Real #206, Belmont, CA 94002 </p>
+        <h5>Tel</h5>
+        <p>(650) 620-9352</p>
+        <h5>Email</h5>
+        <p>bhien124@yahoo.com</p>
+        <h5>Hours</h5>
+        <span class="left-column-day">Mon - Sat</span><span>10:00 AM - 7:00 PM</span> <br>
+        <span class="left-column-day">Sun</span><span>11:00 AM - 3:00 PM</span>
+    </div>
+</div>
+<div id="side-search" class="sidenav">
+    <a href="javascript:void(0)" id="side-search-close">&times;</a>
+    <div class="sidenav-content">
+        <form action="">
+
+            <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="input-group-text red lighten-3" id="basic-text1">
+                        <i class="fas fa-search text-grey" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div id="canvas-overlay"></div>
+<div class="boxed-page bg-white">
+    <nav id="navbar-header" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="index.html">
+                <img src="img/Marvelous-nails-spa-logo.png" alt="Marvelous Nails & Spa">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <li class="nav-item only-desktop">
+                        <a class="nav-link" id="side-nav-open" href="#">
+                            <span class="lnr lnr-menu" onclick="openNav()"></span>
+                        </a>
+                    </li>
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </div>
+                </ul>
+
+                <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="index.html">
+                    <img src="img/Marvelous-nails-spa-logo.png" alt="Marvelous Nails & Spa">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="menu.html">Service</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="reservation.html">Contact</a>
+                        </li>
+                    </div>
+                    <li class="nav-item">
+                        <a id="side-search-open" class="nav-link" href="#">
+                            <span class="lnr lnr-magnifier"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>        <!-- Menu Section -->
+    <section id="gtco-menu" class="section-padding bg-silver">
+        <div class="container">
+            <div class="section-content">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <div class="heading-section text-center">
+                        <span class="subheading">
+                            Beauty at the tips of your fingers
+                        </span>
+                            <h2>
+                                Marvelous Nails & Spa Service
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 menu-wrap">
+                        <div class="heading-menu">
+                            <h3 class="text-center mb-5">Manicure & Pedicure</h3>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-manicure-pedicure-01.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Basic Manicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$25</h4>
+                                    </div>
+                                </div>
+                                <p>Basic Manicure
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-manicure-pedicure-02.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Gel Manicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$35</h4>
+                                    </div>
+                                </div>
+                                <p>Gel Manicure
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-manicure-pedicure-03.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Basic Pedicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$35</h4>
+                                    </div>
+                                </div>
+                                <p>Basic Pedicure
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-manicure-pedicure-04.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Callus Removal Pedicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$45</h4>
+                                    </div>
+                                </div>
+                                <p>Callus Removal Pedicure
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-manicure-pedicure-05.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Special Pedicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$60</h4>
+                                    </div>
+                                </div>
+                                <p>Special Pedicure
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 menu-wrap">
+                        <div class="heading-menu">
+                            <h3 class="text-center mb-5">Nail Enhancements</h3>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-nail-enhancements-01.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Artificial Nails Fullset
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$40+</h4>
+                                    </div>
+                                </div>
+                                <p>Artificial Nails Fullset
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-nail-enhancements-02.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Artificial Nails Fill
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$35+</h4>
+                                    </div>
+                                </div>
+                                <p>Artificial Nails Fill
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-nail-enhancements-03.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Dipping Powder
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$45+</h4>
+                                    </div>
+                                </div>
+                                <p>Dipping Powder
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-nail-enhancements-04.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Color Change Reg
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$15+</h4>
+                                    </div>
+                                </div>
+                                <p>Color Change Reg
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-nail-enhancements-05.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Color Change Gel
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$25+</h4>
+                                    </div>
+                                </div>
+                                <p>Color Change Gel
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 menu-wrap">
+                        <div class="heading-menu">
+                            <h3 class="text-center mb-5">Kid Choice</h3>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-kid-choice-01.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Kid Manicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$15</h4>
+                                    </div>
+                                </div>
+                                <p>Kid Manicure
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-kid-choice-02.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Kid Pedicure
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$30</h4>
+                                    </div>
+                                </div>
+                                <p>Kid Pedicure
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-kid-choice-03.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Kid Combo
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$40</h4>
+                                    </div>
+                                </div>
+                                <p>Kid Combo
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-kid-choice-04.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Kid Color Change Reg
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$10</h4>
+                                    </div>
+                                </div>
+                                <p>Kid Color Change Reg
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-kid-choice-05.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Kid Color Change Gel
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$15</h4>
+                                    </div>
+                                </div>
+                                <p>Kid Color Change Gel
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 menu-wrap mt-lg-3">
+                        <div class="heading-menu">
+                            <h3 class="text-center mb-5">Eyelashes</h3>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-eyelashes-01.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Classic
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$80</h4>
+                                    </div>
+                                </div>
+                                <p>Classic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-eyelashes-02.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Volume
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$100</h4>
+                                    </div>
+                                </div>
+                                <p>Volume
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-eyelashes-03.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Hybrid
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$110</h4>
+                                    </div>
+                                </div>
+                                <p>Hybrid
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 menu-wrap mt-lg-3">
+                        <div class="heading-menu">
+                            <h3 class="text-center mb-5">Waxing</h3>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-01.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Eyebrows
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$15+</h4>
+                                    </div>
+                                </div>
+                                <p>Eyebrows
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-02.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Lips
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$5+</h4>
+                                    </div>
+                                </div>
+                                <p>Lips
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-03.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Chin
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$10+</h4>
+                                    </div>
+                                </div>
+                                <p>Chin
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-04.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Face
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$35+</h4>
+                                    </div>
+                                </div>
+                                <p>Face
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-05.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Under Arms
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$15+</h4>
+                                    </div>
+                                </div>
+                                <p>Under Arms
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-06.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Half Arms
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$25+</h4>
+                                    </div>
+                                </div>
+                                <p>Half Arms
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-07.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Full Arms
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$35+</h4>
+                                    </div>
+                                </div>
+                                <p>Full Arms
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-08.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Half Legs
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$30+</h4>
+                                    </div>
+                                </div>
+                                <p>Half Legs
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-waxing-09.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Full Legs
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$35+</h4>
+                                    </div>
+                                </div>
+                                <p>Full Legs
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 menu-wrap mt-lg-3">
+                        <div class="heading-menu">
+                            <h3 class="text-center mb-5">Extra Services</h3>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-01.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Fake Nails
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$5+</h4>
+                                    </div>
+                                </div>
+                                <p>Fake Nails
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-02.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Shape
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$5+</h4>
+                                    </div>
+                                </div>
+                                <p>Shape
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-03.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Design
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$5+</h4>
+                                    </div>
+                                </div>
+                                <p>Design
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-04.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Shiny Buffer
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$5+</h4>
+                                    </div>
+                                </div>
+                                <p>Shiny Buffer
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-05.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Remove Without Service
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$10+</h4>
+                                    </div>
+                                </div>
+                                <p>Remove Without Service
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-06.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Extra Massage
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$1+</h4>
+                                    </div>
+                                </div>
+                                <p>Extra Massage
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-07.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Gel Add On
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$10+</h4>
+                                    </div>
+                                </div>
+                                <p>Gel Add On
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menus d-flex align-items-center">
+                            <div class="menu-img rounded-circle">
+                                <img class="img-fluid" src="img/home/Marvelous-nails-spa-extra-services-08.jpg" alt="Marvelous Nails & Spa">
+                            </div>
+                            <div class="text-wrap">
+                                <div class="row align-items-start">
+                                    <div class="col-8">
+                                        <h4>Collagen Sock
+                                        </h4>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-muted menu-price">$10+</h4>
+                                    </div>
+                                </div>
+                                <p>Collagen Sock
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of menu Section -->
+    <footer class="mastfoot bg-silver section-padding bg-coffee">
+        <div class="inner container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-widget pr-0">
+                        <img src="img/Marvelous-nails-spa-logo-yellow.png" class="img-fluid footer-logo mb-3"
+                             alt="Marvelous Nails & Spa">
+                        <p class="text-about-footer">Marvelous Nails & Spa is the place to go for a beauty makeover. Get a
+                            trendy look with our new styles and polish nails with fantastic designs that you'll love. If
+                            you're looking for elegance and sparkle, head to Marvelous Nails & Spa!
+                        </p>
+                        <nav class="nav nav-mastfoot justify-content-start">
+                            <a class="nav-link nav-link-footer" target="_blank"
+                               href="https://www.facebook.com/marvelous.belmont">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="nav-link nav-link-footer" target="_blank"
+                               href="https://www.instagram.com/mavelous.belmont">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a class="nav-link nav-link-footer" target="_blank"
+                               href="https://goo.gl/maps/wNBE9EFM7MUkqQy36">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </nav>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-widget px-lg-1 px-0">
+                        <h4 class="color-silver">Open Hours</h4>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex justify-content-start"><span class="left-column-day">Mon - Sat</span><span
+                                    class="text-pink">10:00 AM - 7:00 PM</span></li>
+                            <li class="d-flex justify-content-start"><span class="left-column-day">Sun</span><span
+                                    class="text-pink">11:00 AM - 3:00 PM</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="footer-widget pl-lg-1 pl-0">
+                        <h4 class="color-silver">Contact Us</h4>
+
+                        <h5 class="color-silver-2">Address</h5>
+                        <p class="text-pink">1485 El Camino Real #206, Belmont, CA 94002 </p>
+                        <h5 class="color-silver-2">Tel</h5>
+                        <p class="text-pink">(650) 620-9352</p>
+                        <h5 class="color-silver-2">Email</h5>
+                        <p class="text-pink">bhien124@yahoo.com</p>
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex align-items-center">
+                    <p class="mx-auto text-center mb-0 color-silver-2">Copyright 2022. All Right Reserved. Dev by <a
+                            href="https://www.lldtek.com" target="_blank" class="nav-link-footer">LLDTEK</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+</div>
+<!-- External JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="vendor/bootstrap/popper.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/select2/select2.min.js "></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+<!-- Main JS -->
+<script src="js/app.min.js "></script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "290px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>
